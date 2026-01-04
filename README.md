@@ -1,149 +1,120 @@
-📌 Project Overview
+<p align="center">
+  <img src="images/Cricket Image.ppg.jpg" width="110"/>
+</p>
 
-This project focuses on analyzing Indian Premier League (IPL) data to extract meaningful insights about player performance, match impact, and team contributions.
-The goal is to transform raw cricket data into actionable insights using SQL, Excel, and Power BI, following proper data analytics workflow.
+<h1 align="center">🏏 IPL Players Performance Analysis</h1>
 
-This project demonstrates my ability to:
+<p align="center">
+  End-to-End Data Analytics Project using Excel, SQL & Power BI
+</p>
 
-Clean and prepare raw datasets
+---
 
-Write optimized SQL queries
+## 📌 Project Overview
+This project analyzes **IPL player and match performance** using a structured data analytics workflow.  
+The objective is to convert **raw cricket data** into **clear, actionable insights** through proper data cleaning, analysis, and visualization.
 
-Build interactive dashboards
+The project demonstrates real-world **Data Analyst skills**, including:
+- Data cleaning & validation  
+- SQL-based analysis  
+- Dashboard storytelling for non-technical stakeholders  
 
-Communicate insights clearly for non-technical stakeholders
+---
 
-🎯 Objectives
+## 🎯 Business Objective
+- Identify **top-performing players** based on key metrics  
+- Analyze **match impact** of batsmen and bowlers  
+- Understand **team dependency vs balanced performance**  
+- Build an **interactive dashboard** for easy decision-making  
 
-Analyze player-level performance across seasons
+---
 
-Identify top-performing players based on key metrics
+## 🗂 Dataset Details
+- Format: CSV  
+- Type: Structured sports data  
+- Key Fields:
+  - Player Name  
+  - Team  
+  - Matches  
+  - Runs  
+  - Wickets  
+  - Strike Rate  
+  - Economy  
+  - Season  
 
-Understand match impact through runs, wickets, strike rate, and economy
+---
 
-Create interactive Power BI dashboards for decision-making
+## 🔄 Data Preparation – Excel
+Excel was used for **initial data understanding and preprocessing**:
+- Checked data structure and column consistency  
+- Identified missing and invalid values  
+- Performed basic filtering and sorting  
+- Validated numerical columns (runs, wickets, strike rate)
 
-🗂 Dataset Information
+This step ensured the data was ready for SQL-based transformation.
 
-Source: IPL historical dataset (CSV format)
+---
 
-Data Type: Structured sports data
+## 🧹 Data Cleaning & Analysis – SQL
+SQL was used to handle **core data transformation and analysis**:
+- Removed duplicate records  
+- Handled missing values logically  
+- Standardized column formats  
+- Created calculated metrics for performance comparison  
+- Extracted player-wise and team-wise insights  
 
-Key Columns Include:
+All SQL logic is documented in separate scripts for transparency.
 
-Player Name
+---
 
-Team
+## 📊 Data Visualization – Power BI
+Power BI was used to build an **interactive and stakeholder-friendly dashboard**:
+- KPI cards for key performance metrics  
+- Player and team comparison visuals  
+- Filters for season, team, and player  
+- Clean layout focused on storytelling  
 
-Matches
+The dashboard is designed for **quick insight generation**, even for non-technical users.
 
-Runs
+---
 
-Wickets
+## 📈 Key Insights Summary
+- Consistent performers contribute more than occasional high scorers  
+- Strike rate has a strong influence on match outcomes  
+- Balanced teams outperform star-dependent teams  
+- Efficient bowlers create higher match impact through economy control  
 
-Strike Rate
+---
 
-Economy
-
-Season
-
-🛠 Tools & Technologies Used
-
-SQL – Data cleaning, transformation, and analysis
-
-Excel – Initial data exploration and validation
-
-Power BI – Interactive dashboard creation & visualization
-
-CSV – Raw dataset storage
-
-🔄 Data Cleaning Process (SQL)
-
-Removed duplicate records
-
-Handled missing and inconsistent values
-
-Standardized column formats
-
-Ensured correct data types for analysis
-
-All cleaning logic is documented in the SQL scripts for transparency and reproducibility.
-
-📈 Key Analysis Performed
-
-Top run scorers and wicket takers
-
-Player consistency across seasons
-
-Batting strike rate vs match impact
-
-Bowling economy vs wickets taken
-
-Team-wise player contribution analysis
-
-📊 Dashboard Highlights (Power BI)
-
-Interactive filters for season, team, and player
-
-KPI cards showing key performance metrics
-
-Visual comparison of players across different parameters
-
-Clean, minimal, stakeholder-friendly design
-
-📂 Project Structure
+## 📂 Project Structure
 ├── IPL_Dataset.csv
 ├── IPL data cleaning.sql
 ├── IPL data analysis.sql
 ├── IPL Players Performance Report.pbix
 ├── IPL Players Performance Report.pdf
+├── IPL_Players_Performance_Insights.pdf
 └── README.md
 
-📌 Key Insights
 
-Certain players show high impact despite fewer matches
+---
 
-Strike rate plays a crucial role in match outcomes
+## 🚀 How to Use This Project
+1. Clone the repository  
+2. Review SQL scripts for data logic  
+3. Open `.pbix` file in Power BI Desktop  
+4. Explore insights using interactive filters  
 
-Consistent performers contribute more than occasional high scorers
+---
 
-Balanced teams outperform star-dependent teams
+## 👤 Author
+**KrishnaKumar Yadav**  
+Aspiring Data Analyst  
+Skills: SQL | Excel | Power BI | Data Cleaning | Data Visualization  
 
-🚀 Learnings from This Project
+🔗 GitHub: https://github.com/krishnakumar-yadav  
+🔗 LinkedIn: https://www.linkedin.com/in/krishnakumar-yadav-755049291  
 
-Practical application of SQL in real-world datasets
+---
 
-Importance of clean data before visualization
+⭐ If you find this project useful, feel free to star the repository!
 
-Designing dashboards for non-technical audiences
-
-Storytelling through data rather than just charts
-
-📎 How to Use This Project
-
-Clone the repository
-
-Open SQL files to review cleaning & analysis logic
-
-Load .pbix file in Power BI Desktop
-
-Explore the dashboard using interactive filters
-
-👤 About Me
-
-Krishna Kumar Yadav
-Aspiring Data Analyst with hands-on experience in:
-
-SQL
-
-Excel
-
-Power BI
-
-Data Cleaning & Visualization
-
-🔗 GitHub: https://github.com/krishnakumar-yadav
-
-🔗 LinkedIn: https://www.linkedin.com/in/krishnakumar-yadav-755049291
-
-⭐ If you find this project insightful, feel free to star the repository!
