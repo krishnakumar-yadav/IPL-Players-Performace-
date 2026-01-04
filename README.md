@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="Ipl.png" alt="IPL Project Preview" width="600">
+</p>
 <h1 align="center">🏏 IPL Players Performance Analysis</h1>
 
 <p align="center">
