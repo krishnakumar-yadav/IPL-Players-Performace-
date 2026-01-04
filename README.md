@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Cricket Image.ppg.jpg" width="110"/>
+  <img src="images/Cricket Image.jpg.jpg" width="110"/>
 </p>
 
 <h1 align="center">🏏 IPL Players Performance Analysis</h1>
